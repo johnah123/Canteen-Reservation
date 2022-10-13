@@ -1,0 +1,42 @@
+@import "./home.css";
+
+
+/*Variables*/
+:root{
+    --primary:#00aa6c;
+}
+
+/*==Default==*/
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins' sans-serif;
+    left: 0;
+    top: 0;
+ 
+}
+body{
+    max-width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    background-color: #f7f7f7;   
+}
+
+
+
+
+
+
+
+
+
+

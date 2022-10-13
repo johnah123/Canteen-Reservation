@@ -1,0 +1,48 @@
+/*====MEDIA==QUERY=Front-Page-Content=====*/
+@media(max-width: 614px){
+    .front-page-content
+    {
+        
+        display: flex;
+        justify-content: space-around;
+           
+    }    
+    .front-page-title
+    {
+        display: flex;
+    }
+    .front-page-title img
+    {
+        height: 60px;
+    }
+        
+    .front-page-title h1
+    {
+        font-family: sans-serif;
+        font-size: 1rem;
+        margin-top: 5px;
+        color:#00aa6c;
+    }
+    .front-page-title h1 span
+    {
+        color: rgb(8, 8, 8);
+       display: flex;
+    }
+    
+    .nav-bar ul li 
+    {
+        display: none;
+    }
+    .nav-bar
+    {
+        
+        background-color: #000000fd;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: right;
+        z-index: 2;
+    }
+    
+    }
